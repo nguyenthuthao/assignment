@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab3</title>
+</head>
+<body>
+<script>
+    var f0 = prompt("F0: ");
+    f0 = parseFloat(f0);
+    var f1 = prompt("F1: ");
+    f1 = parseFloat(f1);
+    for (var i =0; i<10; i++){
+     var f = f0+f1;
+     f0 = f1;
+     f1 = f;
+     alert(f);
+    }
+    a=99999999999999999;
+    alert(isFinite(a));
+</script>
+</body>
+</html>

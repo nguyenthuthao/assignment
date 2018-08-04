@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+.minh{
+	text-align:center;
+	}
+.form-group{
+	padding:3px;
+	margin: 3px 0px;
+	border:none;
+	box-shadow:0 0 5px blue;
+	outline:none;
+	display:block;
+	width:30%;
+	color:red;
+	}
+.form-control{
+	box-shadow:0 0 3px red;
+	}
+button{
+	border:none;
+	border-radius:3px;
+	box-shadow:0 0 3px green;
+	padding:5px 10px;
+	outline:none;
+	}
+button:hover{
+	box-shadow:0 0 3px red;
+	color:red;
+	}
+button:disabled{
+	text-decoration:line-through;
+	}
+
+
+
+
+
+.form-group1{
+	padding:5px;
+	margin:3px auto;
+	border:none;
+	color:black;
+	display:block;
+	outline:none;
+	font-variant:small-caps;
+	width:80%;
+	}
+.form-control2{
+	width:30%;
+	}
+.form-control2:focus{
+	background-color:#9FC;
+	}

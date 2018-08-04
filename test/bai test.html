@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<script>
+    var hoTen = prompt("Nhap vao ho ten: ");
+    document.write("Ho ten: "+hoTen+"<br>");
+    var diemHTML = prompt("Nhap vao diem HTML: ");
+    document.write(diemHTML+"<br>");
+    var diemJaVa1 = prompt("Nhap vao diem java1: ");
+    document.write(diemJaVa1+"<br>");
+    var diemJaVaScript = prompt("Nhap vao diem javascript: ");
+    document.write(diemJaVaScript+"<br>");
+    var diemTB=(diemHTML*10+diemJaVa1*10+diemJaVaScript*10)/30;
+    document.write(diemTB+"<br>");
+        if (diemTB<5){
+            document.write("Trung Binh");
+        } else if (diemTB<7){
+            document.write("Kha");
+        } else if (diemTB<9){
+            document.write("Gioi");
+        } else {
+            document.write("Xuat sac");
+        }
+</script>
+</body>
+</html>

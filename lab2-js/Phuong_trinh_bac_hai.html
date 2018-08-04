@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+</head>
+<body>
+<script>
+    var a = prompt("Nhập vào giá trị a: ");
+    var b = prompt("Nhập vào giá trị b: ");
+    var c = prompt("Nhập vào giá trị c: ");
+    var delta = Math.pow(b,2)-4*a*c;
+    if (delta<0){
+        alert("Phương trình vô nghiệm.");
+    } else if (delta==0){
+        alert("Phương trình có nghiệm kép.")
+        var x0 = -b/(2*a);
+        document.write("Nghiệm là: "+x0);
+    }else {
+        alert("Phương trình có 2 nghiệm.")
+        var x1 = (-b+Math.sqrt(delta))/(2*a);
+        var x2 = (-b-Math.sqrt(delta))/(2*a);
+        document.write("Nghiệm 1 là: "+" "+x1+"<br>");
+        document.write("Nghiệm 2 là: "+" "+x2);
+    }
+</script>
+</body>
+</html>

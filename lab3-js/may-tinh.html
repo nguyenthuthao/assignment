@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab3</title>
+</head>
+<body>
+<script>
+    var a = prompt("Toán hạng a: ");
+    a = parseFloat(a);
+    var b = prompt("Toán hạng b: ");
+    b = parseFloat(b);
+    var c = prompt("Toán tử: ");
+    switch (c){
+        case "+":
+            var ketQua = a+b;
+            alert("Tổng: "+ketQua);
+            break;
+        case "-":
+            var ketQua1 = a-b;
+            alert("Hiệu: "+ketQua1);
+            break;
+        case "*":
+            var ketQua2 = a*b;
+            alert("Tích: "+ketQua2);
+            break;
+        case "/":
+            var ketQua3 = a/b;
+            alert("Thương: "+ketQua3 );
+            break;
+        default:
+                alert(c +"không phải là toán tử");
+                break;
+    }
+</script>
+</body>
+</html>

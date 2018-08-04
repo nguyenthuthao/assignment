@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	border:#0CF;
+	}
+.hang1{
+	background-color:#09F !important;
+	font-weight:bold;
+	
+	text-align:center;
+	}
+tr:nth-child(2n+1){
+	background-color:#CCC;
+	}
+video{
+	width:74%;
+	height:600px;
+	float:left;
+	margin:8px;
+	}
+img{
+	width:24%;
+	height:200px;
+	}
+audio{
+	width:74%;
+	float:left;
+	margin:8px;
+	}

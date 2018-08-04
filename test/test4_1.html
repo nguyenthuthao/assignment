@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test4</title>
+</head>
+<body>
+<script>
+    function sinhVien(ten,tuoi,queQuan) {
+        this.ten = ten;
+        this.tuoi =tuoi;
+        this.queQuan = queQuan;
+        this.noi = function () {
+            document.write("Toi ten la"+" "+this.ten+" "+"nam nay toi"+" "+this.tuoi+"tuoi"+" "+"song tai"+" "+this.queQuan +" "+"noi"+" "+"Tieng viet");
+        }
+    }
+    sinhVien["Tien"] = new sinhVien("Tien","20","Hai duong");
+    //document.write(sinhVien["Tien"].ten,sinhVien["Tien"].tuoi,sinhVien["Tien"].queQuan);
+    sinhVien["Tien"].noi();
+</script>
+</body>
+</html>

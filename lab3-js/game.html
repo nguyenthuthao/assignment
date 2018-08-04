@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab3</title>
+</head>
+<body>
+<input type="password">
+<script>
+    var x = Math.floor(Math.random()*100);
+    document.write(x);
+    var a = prompt("So can doan: ");
+    while(true){
+        if (a==x){
+            alert("Chuc mung ban!");
+            break;
+        }else if (a>x){
+            alert("So can doan lon hon so bi mat");
+        } else {
+            alert("So can doan nho hon so bi mat")
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab3</title>
+</head>
+<body>
+<form>
+    Ho ten:<br>
+    <input id="hoten" type="text" name="Ho ten"><br>
+    Diem HTML:<br>
+    <input id="diemhtml" type="text" name="Điem HTML"><br>
+    Diem Javascript:<br>
+    <input id="diẹmavascript" type="text" name="Điem Javascript"><br>
+    Diem Java:<br>
+    <input id="diemjava" type="text" name=" Điem Java"><br>
+    <button type="button" onclick="xepLoai()">Xep loai</button>
+    <button type="reset">Xoa</button>
+    <div id="xeploai1"></div>
+    <div id="xeploai2"></div>
+    <script>
+       function xepLoai() {
+           var hoTen = document.getElementById("hoten").value;
+           var diemhtml = document.getElementById("diemhtml").value;
+           var diemjavascript = document.getElementById("diẹmavascript").value;
+           var diemjava = document.getElementById("diemjava").value;
+           var diemTB = (diemhtml*10+diemjavascript*10+diemjava*10)/30;
+           if (diemTB<5){
+               document.getElementById("xeploai1").innerHTML="Yeu";
+           }else {
+               document.getElementById("xeploai2").innerHTML="gioi";
+           }
+       }
+    </script>
+</form>
+</body>
+</html>
